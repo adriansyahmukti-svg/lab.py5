@@ -106,47 +106,34 @@
 
 
 
-1. Tentukan Struktur Data
 
-Gunakan dictionary untuk menyimpan data mahasiswa:
-Key utama: NIM
-Value: dictionary dengan nama dan nilai
+
+1. Tentukan Struktur Data
+   Gunakan dictionary untuk menyimpan data mahasiswa:
+   Key utama: NIM
+   Value: dictionary dengan nama dan nilai
 
 2. Buat Fungsi Menghitung Nilai Akhir
 3. Buat Fungsi Tambah Data
-Langkah-langkah:
-Minta input NIM, Nama, Tugas, UTS, UAS
-Periksa apakah NIM sudah ada
-Hitung nilai akhir menggunakan fungsi sebelumnya
-Simpan data ke dictionary
-Ini adalah bagian Create dalam CRUD.
 4. Buat Fungsi Tampilkan Data
-Langkah-langkah:
-Periksa apakah dictionary kosong
-Jika ada data, tampilkan semua NIM, Nama, Nilai Tugas, UTS, UAS, dan Nilai Akhir dalam tabel
-Ini adalah bagian Read dalam CRUD
-Buat Fungsi Hapus Data
-
-Langkah-langkah:
-Minta input NIM yang ingin dihapus
-Periksa apakah NIM ada
-Hapus data dari dictionary
-Ini adalah bagian Delete dalam CRUD.
+   Langkah-langkah:
+   Periksa apakah dictionary kosong
+   Jika ada data, tampilkan semua NIM, Nama, Nilai Tugas, UTS, UAS, dan Nilai Akhir dalam tabel
+   Ini adalah bagian Read dalam CRUD
+   Buat Fungsi Hapus Data
 5. Buat Fungsi Cari Data
-Langkah-langkah:
-Minta input NIM yang dicari
-Periksa apakah NIM ada
-Jika ada, tampilkan detail data mahasiswa
-Jika tidak ada, beri pesan "tidak ditemukan"
+   Langkah-langkah:
+   Minta input NIM yang dicari
+   Periksa apakah NIM ada
+   Jika ada, tampilkan detail data mahasiswa
+   Jika tidak ada, beri pesan "tidak ditemukan"
 6. Buat Menu Utama
-Langkah-langkah:
-Buat loop while True
-Tampilkan pilihan menu: Lihat, Tambah, Ubah, Hapus, Cari, Keluar
-Jalankan fungsi sesuai pilihan pengguna
-Jika memilih Keluar, hentikan loop
-## Flowchart Program Daftar Kontak
-
-```## Flowchart Program Daftar Kontak
+   Langkah-langkah:
+   Buat loop while True
+   Tampilkan pilihan menu: Lihat, Tambah, Ubah, Hapus, Cari, Keluar
+   Jalankan fungsi sesuai pilihan pengguna
+   Jika memilih Keluar, hentikan loop
+Flowchart Program Daftar Kontak
 
 ```
 ```
@@ -183,3 +170,4 @@ Jika memilih Keluar, hentikan loop
 |         Selesai         |
 +-------------------------+
 ```
+
